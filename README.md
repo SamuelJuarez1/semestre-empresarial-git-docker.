@@ -3,9 +3,9 @@
 * $ docker run hello-world
 
 ## sql
-* docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=root" --name sql -p 14022-1422 -h imagensql -d mcr.microsoft.com/mssql/server:2019-latest
+* docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=root" --name sql -h imagensql -d mcr.microsoft.com/mssql/server:2019-latest
 
-##GIT
+## GIT
 *git init
 *git add README.md
 *git commit -m "first commit"
